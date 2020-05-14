@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	
+html{background-color:#000000;
+}
+
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+	
+body{text-align:center;
+color:#ffffff;
+width:900px;
+   margin: auto;
+}
+
+h1{font-size:36pt;
+font-family: "Futura Md", Myriad Pro, sans serif;
+font-weight:bold;
+}
+
+h2{font-size:18pt;
+font-family: "Adobe Garamond Pro", Times, serif;}
+
+header{padding:20px;
+position: fixed;
+right: 0;
+left: 0;
+margin-right: auto;
+margin-left: auto;
+background-color:#000000;
+width:900px;
+height:auto;
+z-index: 10;
+transition: transform 1s; /* Animation */
+}
+
+header:hover {
+  box-shadow: 0 0px 30px black;}
+  
+  img{margin: auto;}
+  
+#listen{text-align:center;
+padding-top:170px;
+   margin: auto;
+width:400px;
+z-index: 1;}
+
+#about{text-align:center;
+padding-top:170px;
+   margin: auto;
+width:400px;
+z-index: 1;}
+
+
+footer{
+	margin:auto;
+	padding:50px;
+background-color:#000000;
+width:900px;
+box-shadow: 0px 0px 10px black;
+font-family: "Century Gothic", Arial, sans serif;
+text-align:center;
+}
+
+footer:hover {
+  box-shadow: 0 0px 30px black;}
+
+p{font-size:13pt; margin: auto;
+font-family: "Myriad Pro", Arial, sans serif;}
+
+/*img{padding-left:40px;
+padding-right:40px;}*/
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom-large {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+  padding:60px;
+  width:550px;
+}
+
+.zoom-large:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.fix{
+clear: both;
+}
+
+#social{padding-bottom:15px;
+padding-left:20px;
+padding-right:20px;
+width:50px;
+}
+
+#logo{padding-bottom:5px;
+width:70px;}
+
+.left{float:left;}
+  
+.right{float:right;
+padding-top:30px;}
+
+.band{width:800px;}
+
+@media screen and (max-width: 900px){
+	header{width:auto;}
+	body{width:auto;}
+	.band{width:100%; height:auto;}
+	#about{
+	padding-top:20px;}
+	
+	@media screen and (max-width: 650px){
+		.zoom-large{width:75%; height:auto;}
+
+	
+	
+}
